@@ -1,0 +1,29 @@
+.tab-pane.active{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.d-flex{
+    display: grid!important;
+    grid-template-columns: 2fr 8fr;
+}
+
+.nav-link{
+    border: 1px solid gray;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.nav-link.active{
+    background: green !important;
+    box-shadow: 0 0 10px -3px green;
+}
+
+.card p{
+    margin: 10px 0;
+}
+
+.card{
+    margin-inline: auto;
+}
